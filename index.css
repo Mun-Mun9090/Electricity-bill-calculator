@@ -1,20 +1,24 @@
-html, body{
+html,
+body {
     margin: 0;
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10pt;
     background: #f2f4f6;
 }
-:focus{
+
+:focus {
     outline: none;
 }
-section{
+
+section {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-section .panel{
+
+section .panel {
     width: 400px;
     height: 450px;
     padding: 20px;
@@ -24,36 +28,47 @@ section .panel{
     display: flex;
     flex-direction: column;
 }
-section .panel h2{
+
+section .panel h2 {
     display: flex;
     justify-content: center;
 }
-section .panel h3{
+
+section .panel h3 {
     border-bottom: 1px solid #ccc;
 }
-section .panel table{
+
+section .panel table {
     border-collapse: collapse;
 
 }
-section .panel table thead{
+
+section .panel table thead {
     background: dodgerblue;
     color: white;
 }
-section .panel table thead tr,section .panel table tr,td,th{
+
+section .panel table thead tr,
+section .panel table tr,
+td,
+th {
     height: 30px;
     text-align: center;
     border: 1px solid #ccc;
 }
-section .panel label{
+
+section .panel label {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-section .panel input{
+
+section .panel input {
     height: 30px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-section .panel button{
+
+section .panel button {
     margin-top: 20px;
     border: none;
     background: dodgerblue;
@@ -61,11 +76,13 @@ section .panel button{
     border-radius: 4px;
     height: 45px;
 }
-section .panel button:hover{
+
+section .panel button:hover {
     cursor: pointer;
     background: blue;
 }
-section .panel .total{
+
+section .panel .total {
     margin-top: 30px;
     font-size: 12pt;
     font-weight: bold;
